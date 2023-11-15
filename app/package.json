@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate":"sass --watch src/app/theme.scss output.css"
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
