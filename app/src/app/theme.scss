@@ -1,15 +1,15 @@
 // Custom.scss
 // Option B: Include parts of Bootstrap
-// $blue:    red !default;
-// $indigo:  #6610f2 !default;
-// $purple:  #6f42c1 !default;
-// $pink:    #d63384 !default;
-// $red:     #dc3545 !default;
-// $orange:  #fd7e14 !default;
-// $yellow:  #ffc107 !default;
-// $green:   #198754 !default;
-// $teal:    #20c997 !default;
-// $cyan:    #0dcaf0 !default;
+$blue:    red !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #198754 !default;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
 
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../../node_modules/bootstrap/scss/functions";
@@ -44,14 +44,14 @@
 
 // @import 'primereact/resources/primereact.css';
 
-// $primaryLightColor: red !default;
-// $primaryColor: red !default;
-// $primaryDarkColor: red !default;
-// $primaryDarkerColor: red !default;
-// $primaryTextColor: white !default;
+$primaryLightColor: tint-color(red, 30%) !default;
+$primaryColor: red !default;
+$primaryDarkColor: tint-color(red, 30%) !default;
+$primaryDarkerColor: tint-color(red, 60%) !default;
+$primaryTextColor: white !default;
 
-// $highlightBg: $primaryColor !default;
-// $highlightTextColor: $primaryTextColor !default;
+$highlightBg: $primaryColor !default;
+$highlightTextColor: $primaryTextColor !default;
 
 @import '../../primereact-themes-scss/themes/bootstrap4/bootstrap4-light/purple/theme.scss';
 // @import "primereact/resources/themes/bootstrap4-light-purple/theme.css";   
