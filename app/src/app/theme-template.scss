@@ -1,0 +1,35 @@
+// !ECOMMERCE VARIABLES
+$ecommerce-primary: '${primary_color}' !default;
+
+// *BOOSTRAP THEME*
+// ?PRIMARY COLOR
+$blue: $ecommerce-primary !default;
+
+// IMPORTS
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/variables-dark";
+@import "../../../node_modules/bootstrap/scss/maps";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/root";
+@import "../../../node_modules/bootstrap/scss/utilities";
+@import "../../../node_modules/bootstrap/scss/reboot";
+@import "../../../node_modules/bootstrap/scss/type";
+@import "../../../node_modules/bootstrap/scss/images";
+@import "../../../node_modules/bootstrap/scss/containers";
+@import "../../../node_modules/bootstrap/scss/grid";
+@import "../../../node_modules/bootstrap/scss/helpers";
+@import "../../../node_modules/bootstrap/scss/utilities/api";
+
+// *PRIMEREACT THEME*
+// ?PRIMARY COLOR
+$primaryLightColor: tint-color($ecommerce-primary, 30%) !default;
+$primaryColor: $ecommerce-primary !default;
+$primaryDarkColor: tint-color($ecommerce-primary, 30%) !default;
+$primaryDarkerColor: tint-color($ecommerce-primary, 60%) !default;
+$primaryTextColor: white !default;
+$highlightBg: $primaryColor !default;
+$highlightTextColor: $primaryTextColor !default;
+
+// IMPORTS
+@import '../../../primereact-sass/themes/bootstrap4/bootstrap4-light/purple/theme.scss';
